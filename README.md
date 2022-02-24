@@ -8,7 +8,12 @@ This REST-API is made for saving Movie names with their Id's in the database.
 - POST = Create a event or add data to the database.
 - DELETE = Delete all/any events/event from the database.
 
-Change the database 
+Change the database User, Password and the Name:
+```
+  DB_USER     = "_USER_"
+  DB_PASSWORD = "_PASSWORD_"
+  DB_NAME     = "_NAME_"
+ ```
 
 Commands/URLs:
 
