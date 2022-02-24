@@ -1,6 +1,6 @@
 # REST-API using Golang(gorilla/mux package) with PostgreSQL DB
 
-REST-API establishes create, read and delete (CRUD) operations and HTTP methods.
+REST-API establishes create, read and delete operations and HTTP methods.
 
 This REST-API is made for saving Movie names with their Id's in the database.
 
