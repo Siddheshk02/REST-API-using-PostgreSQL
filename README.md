@@ -15,6 +15,26 @@ Change the database User, Password and the Name:
   DB_NAME     = "_NAME_"
  ```
 
+DB Query for Creating the Movies table and inserting MovieID and MovieName:
+ ```
+  CREATE TABLE movies (
+    id SERIAL PRIMARY KEY,
+	movieID varchar(50) NOT NULL,
+	movieName varchar(50) NOT NULL
+  );
+  
+  INSERT INTO movies (
+    movieID,
+	movieName
+  )
+ ```
+For adding the Records to the DB:
+```
+  VALUES
+    ('1', '_MovieName_'),
+    ('2', '_MovieName_'),
+ ```
+
 Commands/URLs:
 
  GET :
