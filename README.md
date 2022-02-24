@@ -1,1 +1,1 @@
-# REST-API-using-PostgreSQL
+# REST-API using Golang with PostgreSQL
