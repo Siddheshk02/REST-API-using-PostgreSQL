@@ -33,11 +33,11 @@ Commands/URLs:
  ```
  
  DELETE:
- - delete a single movie record
+ - Delete a single movie record
  ```
   curl -X DELETE /movies/{movieid}
  ```
- - delete all movie records
+ - Delete all movie records
  ```
   curl -X DELETE /movies
  ```
